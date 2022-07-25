@@ -13,8 +13,18 @@ export default function Home() {
       </div>
      
      <Link href="/users">
-        users 
+      <a>
+      users 
+      </a>
      </Link>
+     <hr />
+     <Link href="/posts">
+      <a>
+      posts
+      </a>
+     </Link>
+
+
 
       <footer className={styles.footer}>
         <a
