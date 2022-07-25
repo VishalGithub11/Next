@@ -1,5 +1,5 @@
 
-const PostId = ({post}) => {
+const PostIds = ({post}) => {
   return (
     <div>
         <h2>{post.id} {post.title}</h2>
@@ -9,7 +9,7 @@ const PostId = ({post}) => {
   )
 }
 
-export default PostId
+export default PostIds
 
 
 export async function getStaticPaths(){
