@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Product 1",
       "price": 4000,
-      "description": "Description 1"
+      "description": "Description facee 1"
     },
     {
       "id": 2,
@@ -22,8 +22,8 @@
   "news": [
     {
       "id": 1,
-      "title": "News Article 1",
-      "description": "Description 1",
+      "title": "News Article art 1",
+      "description": "Description face 1",
       "category": "sports"
     },
     {
