@@ -1,9 +1,12 @@
+Incremental Static Regeneration--
 
+There was a need to update only those pages which needed a change without having to rebuild
+the entire app
 
-getStaticPaths fallback: 'blocking'
-When?
-On a UX level, sometimes, people prefer the page to be loaded without a loading indicator 
+Incremental Static Regeneration (ISR)
+With ISR, Next.js allows you to update static pages after you've built your application
 
-if the wait time is a few milli seconds. This helps avoid the layout shift.
-Some crawlers did not support JavaScript. The loading page would be rendered and then the full
-page would be loaded which was causing a problem.
+You can statically generate individual pages without needing to rebuild the entire site, effectively solving the issue of dealing with stale data
+
+How?
+In the getStaticProps function, apart from the props key, we can specify a "revalidate" key

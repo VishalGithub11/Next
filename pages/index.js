@@ -1,43 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
+function Home() {
   return (
-    <div className={styles.container}>
-      
-      <div>
-        <h1>Homepage</h1>
-        
-      </div>
-     
-     <Link href="/users">
-      <a>
-      users 
-      </a>
-     </Link>
-     <hr />
-     <Link href="/posts">
-      <a>
-      posts
-      </a>
-     </Link>
-
-
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-    </div>
+    <>
+      <h1>Next JS pre-rendering</h1>
+      <Link href='/users'>
+        <a>Users</a>
+      </Link>
+      <Link href='/posts'>
+        <a>Posts</a>
+      </Link>
+    </>
   )
 }
+
+export default Home
