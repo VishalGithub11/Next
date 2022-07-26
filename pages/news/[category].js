@@ -27,10 +27,10 @@ function ArticleListByCategory({ articles, category }) {
     )
     const data = await response.json()
   
-    // console.log(`Pre-rendering News Articles for category ${category}`)
-    // res.setHeader('Set-Cookie', ['name= Vishal'])
-    // console.log(req.headers.cookie)
-    // console.log(query)
+    console.log(`Pre-rendering News Articles for category ${category}`)
+    res.setHeader('Set-Cookie', ['name= Vishal'])
+    console.log(req.headers.cookie)
+    console.log(query)
     return {
       props: {
         articles: data,
