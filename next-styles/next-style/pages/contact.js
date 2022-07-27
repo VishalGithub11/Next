@@ -1,8 +1,10 @@
 import React from 'react'
+import styles from "../styles/Contact.module.css"
 
 const contact = () => {
   return (
-    <div>
+    <div className={styles.hightlights}>
+         
         <h2>
         contact
 
