@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img1 from '../public/5.jpg'
+import img1 from 'public/5.jpg'
 
 
 //Image component benefits: 
