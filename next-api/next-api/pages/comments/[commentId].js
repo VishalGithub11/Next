@@ -11,7 +11,7 @@ function Comment({ comment }) {
 export default Comment
 
 
-////////////////FOR PRE-RENDERING, DO NOT CALL YOUR OWN API ROUTES///////////////////////////////////////////////////////////////
+////////////////FOR PRE-RENDERING, DO NOT CALL YOUR OWN API ROUTES///////////////////////////////////////////////
 
 export async function getStaticProps(context) {
   const { params } = context
