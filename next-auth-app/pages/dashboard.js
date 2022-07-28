@@ -7,7 +7,6 @@ const [loading, setLoading] = useState(true);
 useEffect(()=>{
 const securePage = async()=>{
   const session = await getSession();
-  console.log('session', session);
   if(!session){
      signIn()
   } else {
